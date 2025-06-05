@@ -1,6 +1,6 @@
 {
   "name": "lsx",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Enhanced ls command with better visibility",
   "bin": {
     "lsx": "./dist/lsx.js"
@@ -8,7 +8,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/lsx.ts",
-    "start": "node dist/lsx.js"
+    "start": "node dist/lsx.js",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
@@ -18,7 +19,20 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "keywords": ["ls", "file", "directory", "cli"],
+  "keywords": ["ls", "file", "directory", "cli", "enhanced", "terminal"],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fregdee/lsx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fregdee/lsx/issues"
+  },
+  "homepage": "https://github.com/fregdee/lsx#readme",
+  "files": [
+    "dist/",
+    "README.md",
+    "package.json"
+  ]
 }
