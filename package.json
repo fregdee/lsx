@@ -1,6 +1,6 @@
 {
   "name": "@fregdee/lsx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Enhanced ls command with better visibility",
   "bin": {
     "lsx": "./dist/lsx.js"
