@@ -77,7 +77,7 @@ function displayFiles(files: FileInfo[]): void {
     const date = formatDate(file.mtime);
     const size = file.type === 'DIR' ? '-' : formatFileSize(file.size);
     
-    console.log(`${type.padEnd(6)} ${name.padEnd(20)} ${date} ${size.padStart(8)}`);
+    console.log(`${type.padEnd(6)} ${date} ${size.padStart(8)} ${name}`);
   }
 }
 
