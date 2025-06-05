@@ -1,0 +1,24 @@
+{
+  "name": "lsx",
+  "version": "1.0.0",
+  "description": "Enhanced ls command with better visibility",
+  "bin": {
+    "lsx": "./dist/lsx.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/lsx.ts",
+    "start": "node dist/lsx.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["ls", "file", "directory", "cli"],
+  "author": "",
+  "license": "MIT"
+}
