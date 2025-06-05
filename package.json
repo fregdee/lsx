@@ -1,5 +1,5 @@
 {
-  "name": "lsx",
+  "name": "@fregdee/lsx",
   "version": "0.0.2",
   "description": "Enhanced ls command with better visibility",
   "bin": {

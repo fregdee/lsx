@@ -83,7 +83,7 @@ jobs:
             
             ### Installation
             ```bash
-            npm install -g lsx@${{ steps.version.outputs.version_number }}
+            npm install -g @fregdee/lsx@${{ steps.version.outputs.version_number }}
             ```
           draft: false
           prerelease: ${{ github.event.inputs.prerelease }}
