@@ -1,6 +1,6 @@
 {
   "name": "lsx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Enhanced ls command with better visibility",
   "bin": {
     "lsx": "./dist/lsx.js"
@@ -19,7 +19,14 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "keywords": ["ls", "file", "directory", "cli", "enhanced", "terminal"],
+  "keywords": [
+    "ls",
+    "file",
+    "directory",
+    "cli",
+    "enhanced",
+    "terminal"
+  ],
   "author": "",
   "license": "MIT",
   "repository": {
